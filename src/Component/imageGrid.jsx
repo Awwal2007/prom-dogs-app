@@ -1,5 +1,5 @@
 import React from 'react';
-import '/src/Component/ImageGrid.css';
+import './ImageGrid.css';
 import img1 from '../assets/IMG-20250523-WA0110.jpg';
 import img2 from '../assets/IMG-20250523-WA0120.jpg';
 import img3 from '../assets/IMG-20250523-WA0119.jpg';

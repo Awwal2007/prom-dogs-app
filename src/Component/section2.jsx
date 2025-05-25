@@ -1,4 +1,4 @@
-import "/src/Component/Section2.css"
+import "./Section2.css"
 import image1 from "../assets/IMG-20250523-WA0110.jpg"
 import ImageGrid from "./imageGrid"
 const Section2 =()=>{

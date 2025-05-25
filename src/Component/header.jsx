@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../assets/prom dogs logo.png'; 
-import '/src/Component/Header.css';
+import './Header.css';
 import {Link} from "react-router-dom"
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

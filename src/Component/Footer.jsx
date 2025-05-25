@@ -1,4 +1,4 @@
-import "/src/Component/Footer.css"
+import "./Footer.css"
 import {Link} from 'react-router-dom' 
 import react from 'react'
 import logo from "../assets/prom dogs logo.png"

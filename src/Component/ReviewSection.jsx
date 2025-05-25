@@ -1,6 +1,6 @@
 import StarsIcon from '@mui/icons-material/Stars';
 import react from 'react'
-import "/src/Component/ReviewSection.css"
+import "./ReviewSection.css"
 const ReviewSection =()=>{
     return(
         <div className='review-container'>
