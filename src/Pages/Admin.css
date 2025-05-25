@@ -1,0 +1,33 @@
+.admin-dashboard {
+  max-width: 600px;
+  margin: auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-dashboard h1 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.admin-links {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.admin-link {
+  padding: 1rem;
+  background-color: #2b6cb0;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+.admin-link:hover {
+  background-color: #2c5282;
+}

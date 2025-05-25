@@ -1,0 +1,73 @@
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+}
+.middle-side{
+    margin-top: 30px;
+}
+.right-side{
+    margin-top: 30px;
+}
+.footer-logo img{
+    width: 200px;
+    display: inline;
+    object-fit: cover;
+}
+.contact{
+    justify-items: center;
+    text-align: center;
+    vertical-align: middle;
+}
+.contact p{
+    display: inline;
+    justify-items: center;
+    text-align: center;
+    vertical-align: middle;
+    line-height: -10px;
+    font-size: 20px;
+}
+.contact .whatsapp-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -12px;
+    margin-right: 10px;
+    font-size: 2em;
+}
+.gallery-container{
+    display: flex;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+.gallery-container img{
+    width: 10vw;
+    height: 20vh;
+    display: inline;
+}
+.address{
+    text-align: left;
+    margin-top: 20px;
+}
+@media (max-width: 750px) {
+    .footer-container{
+        padding: 20px 0px;
+        display: inline;
+        text-align: center;
+        align-self: center;
+    }
+    .gallery-container{
+        width: 100%;
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    .gallery-container img{
+        width: 240px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-self: center;
+        margin-bottom: 10px;
+    }
+}

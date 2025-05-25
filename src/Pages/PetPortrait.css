@@ -1,0 +1,83 @@
+.portrait-page {
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+
+.hero {
+  background: url('https://source.unsplash.com/1600x500/?puppy,pet') no-repeat center/cover;
+  padding: 4rem 2rem;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.info {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+}
+
+.portrait-form {
+  flex: 1;
+  min-width: 280px;
+  max-width: 500px;
+  background: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.portrait-form label {
+  display: block;
+  margin-bottom: 1.25rem;
+}
+
+.portrait-form input,
+.portrait-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.portrait-form button {
+  background-color: #5a67d8;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.portrait-form button:hover {
+  background-color: #434190;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+  }
+}
