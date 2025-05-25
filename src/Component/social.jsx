@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { blue } from '@mui/material/colors';
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import "./Social.css"
+import "/src/Component/Social.css"
 const Social =()=> {
     const [showSocial, setShowSocial] = useState(false);
     const [isSmallScreen, setIsSmallScreen] = useState(false);

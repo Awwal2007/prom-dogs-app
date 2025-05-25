@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section3.css';
+import '/src/Component/Section3.css';
 import Image from '../assets/WhatsApp Image 2025-05-22 at 22.17.35_cc2ee48f.jpg'; 
 import { Link } from 'react-router-dom';
 

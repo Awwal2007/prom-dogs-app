@@ -1,5 +1,5 @@
 import React from 'react';
-import './Section1.css';
+import '/src/Component/Section1.css';
 import Image from '../assets/IMG-20250523-WA0111.jpg'; // Replace with your image path
 
 const Section1 = () => {

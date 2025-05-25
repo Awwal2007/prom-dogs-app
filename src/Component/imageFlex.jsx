@@ -1,4 +1,4 @@
-import "./ImageFlex.css"
+import "/src/Component/ImageFlex.css"
 
 const ImageFlex =()=> {
     return(
